@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 @import url("./assets/stylesheets/reset.css");
 @import url("./assets/stylesheets/global.css");
-@import url("./assets/stylesheets/utils.css");
 @import url("./assets/stylesheets/header.css");
+@import url("./assets/stylesheets/form.css");
+@import url("./assets/stylesheets/input.css");
+@import url("./assets/stylesheets/tasks.css");
+@import url("./assets/stylesheets/icons.css");
+@import url("./assets/stylesheets/utils.css");

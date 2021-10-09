@@ -1,0 +1,22 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 96px;
+}
+
+.task__form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: auto;
+}
+
+form button {
+  color: white;
+  height: 42px;
+  background: var(--pink-500);
+  box-shadow: var(--shadow-sm);
+  border: none;
+  border-radius: 6px;
+}

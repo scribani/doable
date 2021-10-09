@@ -1,0 +1,11 @@
+.important {
+  fill: var(--pink-500);
+}
+
+.not-important {
+  fill: var(--gray-300);
+}
+
+.important-completed {
+  fill: var(--pink-300);
+}

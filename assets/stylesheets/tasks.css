@@ -1,0 +1,38 @@
+.tasks__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.task__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task__details {
+  width: 290px;
+  padding-left: 10px;
+}
+
+.task__title {
+  font-weight: 600;
+  color: var(--gray-700);
+}
+
+.task__title.completed {
+  color: var(--gray-400);
+}
+
+.task__date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--gray-500);
+}
+
+.task__date.completed {
+  color: var(--gray-300);
+}

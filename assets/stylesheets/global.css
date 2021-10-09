@@ -1,10 +1,19 @@
 :root {
-  --grey-3: #828282;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --pink-300: #f9a8d4;
+  --pink-500: #ec4899;
+  --shadow-sm: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-700);
+  line-height: 24px;
   background-color: #e5e5e5;
 }
 
@@ -17,8 +26,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  height: calc(100vh - 48px);
+  min-height: calc(100vh - 48px);
   background-color: white;
   padding-left: 14px;
   padding-right: 18px;
+}
+
+.link {
+  text-align: center;
+  color: var(--pink-500);
 }
