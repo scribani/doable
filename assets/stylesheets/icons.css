@@ -1,3 +1,7 @@
+.icon:hover {
+  cursor: pointer;
+}
+
 .important {
   fill: var(--pink-500);
 }
